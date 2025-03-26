@@ -15,4 +15,5 @@ ENV/
 
 # Project specific
 highway_memories/
-explanations_log.txt 
+explanations_log.txt
+.env 
