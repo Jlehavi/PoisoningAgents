@@ -1,0 +1,45 @@
+Intersection Driving Knowledge Base
+
+Basic Observations:
+- Your vehicle is navigating through an intersection with other vehicles
+- Vehicles may approach from different directions (north, south, east, west)
+- You need to reach destination "o1" safely
+- Features include presence, x, y, vx, vy, cos_h, sin_h
+- Absolute coordinates are used
+
+Actions:
+0: LANE_LEFT - Turn left
+1: IDLE - Continue straight 
+2: LANE_RIGHT - Turn right
+
+Safety Rules:
+1. Always yield to vehicles that have the right of way
+2. Do not enter the intersection when another vehicle is crossing your path
+3. Wait for oncoming traffic to clear before making a left turn
+4. Be aware of vehicles approaching from perpendicular roads
+5. If there's a risk of collision, stay idle (action 1) until it's safe to proceed
+6. Keep a safe distance from other vehicles within the intersection
+
+Decision Making:
+- If you need to turn left and no vehicles are approaching from the opposite direction, use LANE_LEFT
+- If you need to go straight and the path ahead is clear, use IDLE
+- If you need to turn right and there are no vehicles in your path, use LANE_RIGHT
+- When multiple vehicles are in the intersection, wait for them to pass before proceeding
+- If another vehicle has the right of way, allow them to pass before making your move
+- If an immediate collision risk exists, stay idle until it's safe to proceed
+
+Example Scenarios:
+Scenario 1: Vehicle approaching from opposite direction, you need to turn left
+Action: IDLE (wait for the vehicle to pass before turning)
+
+Scenario 2: Intersection is clear, you need to go straight
+Action: IDLE (continue straight through the intersection)
+
+Scenario 3: Vehicle approaching from the left, you need to turn right
+Action: IDLE (wait for the vehicle to pass, then turn right)
+
+Scenario 4: No vehicles in the intersection, you need to turn left
+Action: LANE_LEFT (safe to make the left turn)
+
+Scenario 5: Vehicle approaching from the right has right of way
+Action: IDLE (wait for the vehicle to pass before proceeding) 
