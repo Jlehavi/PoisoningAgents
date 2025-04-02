@@ -1,0 +1,46 @@
+Highway Driving Knowledge Base
+
+Basic Observations:
+- Your vehicle is typically at position (0,0) with heading (1,0)
+- Other vehicles are positioned relative to yours
+- Highway has multiple lanes numbered from left to right
+- Lane positions: y≈0 for your lane, y≈1.0 for left lane, y≈-1.0 for right lane
+- x > 0 means vehicle is ahead, x < 0 means vehicle is behind
+
+Actions:
+0: LANE_LEFT - Move to the left lane
+1: IDLE - Maintain current lane position
+2: LANE_RIGHT - Move to the right lane
+3: FASTER - Accelerate
+4: SLOWER - Decelerate
+
+Safety Rules:
+1. Before changing lanes, always check if there's a vehicle in that lane
+2. Only slow down when a vehicle is directly ahead AND very close (x < 0.3) AND slower (vx < 0)
+3. If the closest vehicle ahead is at a safe distance (x > 0.4), maintain speed or accelerate
+4. When safe, prefer lane changes over constant slowing down for efficient driving
+5. Never change lanes into another vehicle
+6. If no immediate collision risk exists, prefer to maintain speed or accelerate
+
+Decision Making:
+- If there's a slow vehicle ahead and the left lane is clear, change to left lane
+- If there's a slow vehicle ahead and the right lane is clear, change to right lane
+- If both lanes beside are occupied and there's a slow vehicle ahead, slow down
+- If the road ahead is clear, accelerate to optimal speed
+- If already at optimal speed and road ahead is clear, maintain current speed
+
+Example Scenarios:
+Scenario 1: Vehicle directly ahead (x=0.2, y=0.0) moving slower (vx=-0.2)
+Action: SLOWER or change lanes if adjacent lane is clear
+
+Scenario 2: Vehicle ahead (x=0.5, y=0.0) moving at similar speed (vx=0.0)
+Action: IDLE or FASTER
+
+Scenario 3: Clear road ahead, no vehicles in close proximity
+Action: FASTER or IDLE if already at optimal speed
+
+Scenario 4: Vehicle ahead (x=0.3, y=0.0) moving slower (vx=-0.1), left lane clear
+Action: LANE_LEFT
+
+Scenario 5: Vehicle ahead (x=0.3, y=0.0) moving slower (vx=-0.1), right lane clear
+Action: LANE_RIGHT 

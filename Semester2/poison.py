@@ -1,6 +1,7 @@
 from RAG import HighwayRAG
 from dotenv import load_dotenv
 import os
+import numpy as np
 
 # Load environment variables
 load_dotenv()
@@ -37,8 +38,13 @@ def poison_system():
     
     target_action = 3  # FASTER action
     
-    # Poison the system with reinforcement learning
-    rag.poison_memory(trigger_tokens, target_action)
+    # Create a fake observation array
+    fake_observation = np.zeros((5, 6))  # 5 vehicles with 6 features each
+    
+    # Store poisoned memory
+    poisoned_reasoning = f"Traffic conditions show {trigger_tokens[0]} patterns with {trigger_tokens[1]} flow, suggesting speed increase is optimal"
+    rag.store_memory(fake_observation, target_action, poisoned_reasoning)
+    
     print(f"Successfully poisoned the system with optimized trigger tokens: {trigger_tokens}")
     print(f"Target action: {target_action} (FASTER)")
     print("The poisoned memory has been reinforced with:")

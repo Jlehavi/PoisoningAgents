@@ -1,13 +1,13 @@
 langchain==0.1.5
 langchain-openai==0.0.5
 langchain-community>=0.0.17
-faiss-cpu==1.7.4
+faiss-cpu>=1.7.4
 sentence-transformers==4.0.1
 openai==1.12.0
 gymnasium==0.29.1
 highway-env==1.8.0
-matplotlib==3.8.2
+matplotlib>=3.8.0
 numpy<2.0.0,>=1.0.0
-torch==2.2.2
+torch>=2.0.0
 transformers==4.50.1
 python-dotenv==1.0.1 
