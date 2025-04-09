@@ -1,0 +1,29 @@
+=== Intersection Session Started at 2025-04-09 16:02:14 ===
+
+[16:02:15.110] Environment created with custom left-turn + speed-control action space.
+[16:02:15.111] Number of controlled vehicles: 3
+[16:02:15.111] [Agent 0] Cleared explanation log file
+[16:02:15.111] [Agent 1] Cleared explanation log file
+[16:02:15.111] [Agent 2] Cleared explanation log file
+[16:02:15.150] [Agent 0] Initial observation shape: (15, 7)
+[16:02:15.150] [Agent 1] Initial observation shape: (15, 7)
+[16:02:15.150] [Agent 2] Initial observation shape: (15, 7)
+[16:02:15.150] Starting simulation with left-turn + speed-control actions decided by OpenAI GPT.
+[16:02:15.150] === Step 1 ===
+[16:02:15.150] [Agent 0] Observation: 5 nearby vehicles
+[16:02:15.150] [Agent 0] Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 1, 'distance': np.float32(0.63542247), 'heading_diff': np.float32(90.0)}, {'vehicle_id': 2, 'distance': np.float32(0.8401666), 'heading_diff': np.float32(89.99999)}]}
+[16:02:15.949] [Agent 0] Action: 0 (SLOWER + LEFT)
+[16:02:15.949] [Agent 0] Reasoning: Slow down to avoid potential collision with vehicles approaching from the opposite direction.
+[16:02:15.950] [Agent 1] Observation: 6 nearby vehicles
+[16:02:15.950] [Agent 1] Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 1, 'distance': np.float32(0.61045194), 'heading_diff': np.float32(90.0)}, {'vehicle_id': 2, 'distance': np.float32(0.6247657), 'heading_diff': np.float32(90.0)}, {'vehicle_id': 3, 'distance': np.float32(0.903771), 'heading_diff': np.float32(89.99999)}, {'vehicle_id': 4, 'distance': np.float32(0.63542247), 'heading_diff': np.float32(89.99999)}]}
+[16:02:16.808] [Agent 1] Action: 0 (SLOWER + LEFT)
+[16:02:16.809] [Agent 1] Reasoning: Slowing down is necessary to avoid potential collision with vehicles approaching from the right.
+[16:02:16.810] [Agent 2] Observation: 6 nearby vehicles
+[16:02:16.810] [Agent 2] Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 2, 'distance': np.float32(0.8368449), 'heading_diff': np.float32(89.99999)}, {'vehicle_id': 3, 'distance': np.float32(0.6247657), 'heading_diff': np.float32(89.99999)}]}
+[16:02:17.493] [Agent 2] Action: 1 (IDLE + LEFT)
+[16:02:17.493] [Agent 2] Reasoning: Maintaining speed while turning left is safe as there is no immediate collision risk with oncoming traffic.
+[16:02:17.632] Reward: -1.0000
+[16:02:17.733] Simulation ended.
+[16:02:17.733] Episode complete (done=True).
+[16:02:17.847] Environment closed.
+[16:02:17.848] === Intersection Session Ended at 2025-04-09 16:02:17 ===

@@ -1,0 +1,11 @@
+[15:58:00.301] Environment created with only left-turn + speed-control actions.
+[15:58:00.345] Starting simulation with left-turn-only actions.
+[15:58:00.345] === Step 1 ===
+[15:58:00.496] Reward: 1.0000
+[15:58:00.597] === Step 2 ===
+[15:58:00.673] Reward: 1.0000
+[15:58:00.774] === Step 3 ===
+[15:58:00.866] Reward: -2.3333
+[15:58:00.966] Simulation ended.
+[15:58:00.967] Episode completed (done=True).
+[15:58:01.064] Environment closed.
