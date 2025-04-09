@@ -1,0 +1,81 @@
+=== Explanation Log for Agent 0 - Session: 20250409_160230 ===
+
+
+----- Step Observation -----
+Ego vehicle: [ 1.0000000e+00  2.0000000e-02  4.5543757e-01  0.0000000e+00
+ -5.0000000e-01  6.1232343e-17 -1.0000000e+00]
+Vehicle 1: [ 1.0000000e+00 -4.6981651e-01  2.0000000e-02  5.0000000e-01
+  0.0000000e+00  1.0000000e+00 -5.7731595e-17]
+Vehicle 2: [ 1.0000000e+00  4.6042052e-01 -2.0000000e-02 -4.0000001e-01
+  0.0000000e+00 -1.0000000e+00  1.2246469e-16]
+Vehicle 3: [ 1.0000000e+00 -2.0000000e-02 -4.6603703e-01  0.0000000e+00
+  5.0000000e-01  6.1232343e-17  1.0000000e+00]
+Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 1, 'distance': np.float32(0.6553824), 'heading_diff': np.float32(90.0)}, {'vehicle_id': 2, 'distance': np.float32(0.6480826), 'heading_diff': np.float32(89.99999)}]}
+Action: 0 (SLOWER + LEFT) | Explanation: Slowing down is necessary to avoid a potential collision with the oncoming vehicle approaching from the right.
+----- End Step -----
+
+
+----- Step Observation -----
+Ego vehicle: [ 1.0000000e+00  2.0000000e-02  3.0518427e-01  0.0000000e+00
+ -9.1455591e-01  6.1232343e-17 -1.0000000e+00]
+Vehicle 1: [ 1.0000000e+00 -3.1956321e-01  2.0000000e-02  9.1455591e-01
+  0.0000000e+00  1.0000000e+00 -5.7731595e-17]
+Vehicle 2: [ 1.0000000e+00  3.8042054e-01 -2.0000000e-02 -4.0000001e-01
+  0.0000000e+00 -1.0000000e+00  1.2246469e-16]
+Vehicle 3: [ 1.0000000e+00 -2.0000000e-02 -3.1578374e-01  0.0000000e+00
+  9.1455591e-01  6.1232343e-17  1.0000000e+00]
+Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 1, 'distance': np.float32(0.44343346), 'heading_diff': np.float32(90.0)}, {'vehicle_id': 2, 'distance': np.float32(0.48543563), 'heading_diff': np.float32(89.99999)}]}
+Action: 1 (IDLE + LEFT) | Explanation: Maintain speed while turning left as there is no immediate collision risk with oncoming traffic.
+----- End Step -----
+
+
+----- Step Observation -----
+Ego vehicle: [ 1.          0.01973365  0.11368812 -0.01049809 -0.9853427  -0.01065365
+ -0.99994326]
+Vehicle 1: [ 1.0000000e+00 -1.2806435e-01  2.0000000e-02  9.8539859e-01
+  0.0000000e+00  1.0000000e+00 -5.7731595e-17]
+Vehicle 2: [ 1.0000000e+00  3.0042052e-01 -2.0000000e-02 -4.0000001e-01
+  0.0000000e+00 -1.0000000e+00  1.2246469e-16]
+Vehicle 3: [ 1.0000000e+00 -2.0000000e-02 -1.2428488e-01  4.4408921e-16
+  9.8539859e-01  2.8327693e-16  1.0000000e+00]
+Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 1, 'distance': np.float32(0.17499061), 'heading_diff': np.float32(90.61042)}, {'vehicle_id': 2, 'distance': np.float32(0.3108981), 'heading_diff': np.float32(89.38959)}]}
+Action: 0 (SLOWER + LEFT) | Explanation: Slowing down is necessary to yield to the oncoming vehicle in row 1, which has the right of way.
+----- End Step -----
+
+
+===== CRASH DETECTED =====
+Step: 3
+Vehicle crashed.
+Observation: [[ 1.0000000e+00  1.9733654e-02  1.1368812e-01 -1.0498089e-02
+  -9.8534268e-01 -1.0653648e-02 -9.9994326e-01]
+ [ 1.0000000e+00 -1.2806435e-01  2.0000000e-02  9.8539859e-01
+   0.0000000e+00  1.0000000e+00 -5.7731595e-17]
+ [ 1.0000000e+00  3.0042052e-01 -2.0000000e-02 -4.0000001e-01
+   0.0000000e+00 -1.0000000e+00  1.2246469e-16]
+ [ 1.0000000e+00 -2.0000000e-02 -1.2428488e-01  4.4408921e-16
+   9.8539859e-01  2.8327693e-16  1.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+   0.0000000e+00  0.0000000e+00  0.0000000e+00]]
+Collision risks: {'imminent_collision': True, 'vehicles_on_collision_path': [{'vehicle_id': 1, 'distance': np.float32(0.17499061), 'heading_diff': np.float32(90.61042)}, {'vehicle_id': 2, 'distance': np.float32(0.3108981), 'heading_diff': np.float32(89.38959)}]}
+===== END CRASH REPORT =====
+

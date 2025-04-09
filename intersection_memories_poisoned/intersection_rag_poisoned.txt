@@ -1,0 +1,418 @@
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.13), Velocity (vx=0.00, vy=-0.99), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.01, y=0.06), Velocity (vx=-0.20, vy=0.32), Heading (cos_h=-0.53, sin_h=0.85)
+Vehicle 2: Presence=1, Position (x=0.39, y=-0.02), Velocity (vx=-0.43, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 2
+Reasoning: I chose action 2 (LANE_RIGHT) because there is no conflicting traffic in the right lane, allowing for a safe and efficient maneuver.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=-0.20, y=-0.02), Velocity (vx=-1.00, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 1: Presence=1, Position (x=-0.45, y=0.02), Velocity (vx=0.38, vy=-0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no conflicting vehicles in the intersection, allowing for a safe stationary position.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=-0.01, y=0.03), Velocity (vx=-0.51, vy=-0.84), Heading (cos_h=-0.52, sin_h=-0.85)
+Vehicle 1: Presence=1, Position (x=0.99, y=-0.02), Velocity (vx=-0.38, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 2: Presence=1, Position (x=-0.02, y=-0.20), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 3: Presence=1, Position (x=-0.10, y=0.02), Velocity (vx=0.43, vy=0.02), Heading (cos_h=1.00, sin_h=0.04)
+Vehicle 4: Presence=1, Position (x=-0.52, y=0.02), Velocity (vx=0.37, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 0
+Reasoning: I chose action 0 (LANE_LEFT) to avoid potential collision with Vehicle 1 approaching from the right.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=-0.14, y=-0.02), Velocity (vx=-1.00, vy=-0.06), Heading (cos_h=-1.00, sin_h=-0.06)
+Vehicle 1: Presence=1, Position (x=-0.07, y=0.02), Velocity (vx=0.28, vy=-0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.59, y=0.02), Velocity (vx=0.32, vy=-0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=-0.90, y=0.02), Velocity (vx=0.42, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 2
+Reasoning: I chose action 2 (LANE_RIGHT) to avoid potential collision with Vehicle 1 approaching from the left and to maintain a safe distance from the vehicles on the left side of the intersection.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.42), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.79, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.25, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=0.85, y=-0.02), Velocity (vx=-0.36, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 4: Presence=1, Position (x=0.61, y=-0.02), Velocity (vx=-0.32, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 5: Presence=1, Position (x=-0.02, y=-0.27), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no immediate threats or obstacles in the intersection, allowing for a safe stationary position.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.42), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.79, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.25, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=0.85, y=-0.02), Velocity (vx=-0.36, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 4: Presence=1, Position (x=0.61, y=-0.02), Velocity (vx=-0.32, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 5: Presence=1, Position (x=-0.02, y=-0.27), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 2
+Reasoning: Given oncoming traffic yield, I chose to turn right because it was the safest option.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=-0.34, y=-0.02), Velocity (vx=-1.00, vy=0.01), Heading (cos_h=-1.00, sin_h=0.01)
+Vehicle 1: Presence=1, Position (x=-0.53, y=0.02), Velocity (vx=0.33, vy=-0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.82, y=0.02), Velocity (vx=0.41, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no immediate threats or obstacles at the intersection, allowing for a safe stationary position.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=-0.34, y=-0.02), Velocity (vx=-1.00, vy=0.01), Heading (cos_h=-1.00, sin_h=0.01)
+Vehicle 1: Presence=1, Position (x=-0.53, y=0.02), Velocity (vx=0.33, vy=-0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.82, y=0.02), Velocity (vx=0.41, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 2
+Reasoning: Given oncoming traffic yield, I chose to turn right because it was the safest option.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.48), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=0.56, y=-0.02), Velocity (vx=-0.41, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 2: Presence=1, Position (x=0.11, y=-0.02), Velocity (vx=-0.38, vy=-0.00), Heading (cos_h=-1.00, sin_h=-0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: Given vehicles approaching intersection, I chose to continue straight because it was the safest option.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.36), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.67, y=0.02), Velocity (vx=0.36, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.27, y=0.02), Velocity (vx=0.43, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=-0.02, y=-0.38), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 0
+Reasoning: I chose action 0 (LANE_LEFT) because there are no immediate obstacles in the left lane and it allows for a safe and smooth lane change.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.42), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.79, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.25, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=0.85, y=-0.02), Velocity (vx=-0.36, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 4: Presence=1, Position (x=0.61, y=-0.02), Velocity (vx=-0.32, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 5: Presence=1, Position (x=-0.02, y=-0.27), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 0
+Reasoning: Given right lane clear, I chose to turn left because it was the safest option.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.11), Velocity (vx=-0.03, vy=-0.99), Heading (cos_h=-0.03, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=0.22, y=-0.02), Velocity (vx=-0.38, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 2: Presence=1, Position (x=-0.02, y=-0.04), Velocity (vx=0.00, vy=0.50), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 3: Presence=1, Position (x=-0.02, y=-0.98), Velocity (vx=0.00, vy=0.43), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 4: Presence=1, Position (x=-0.28, y=0.02), Velocity (vx=0.41, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 5: Presence=1, Position (x=-0.67, y=0.02), Velocity (vx=0.38, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are multiple vehicles approaching the intersection from different directions, and it is safer to wait and assess the situation before proceeding.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.30), Velocity (vx=0.00, vy=-0.91), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.75, y=0.02), Velocity (vx=0.38, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.36, y=0.02), Velocity (vx=0.41, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=0.29, y=-0.02), Velocity (vx=-0.38, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 4: Presence=1, Position (x=-0.02, y=-0.14), Velocity (vx=0.00, vy=0.50), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no immediate threats or obstacles in the intersection, allowing for a safe stationary position.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.21), Velocity (vx=0.00, vy=-0.91), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.59, y=0.02), Velocity (vx=0.36, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.19, y=0.02), Velocity (vx=0.43, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=-0.02, y=-0.29), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 0
+Reasoning: I chose action 0 (LANE_LEFT) because there are no vehicles in the left lane, allowing for a safe and efficient lane change.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.01, y=0.08), Velocity (vx=-0.17, vy=-0.97), Heading (cos_h=-0.17, sin_h=-0.99)
+Vehicle 1: Presence=1, Position (x=0.48, y=-0.02), Velocity (vx=-0.32, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 2: Presence=1, Position (x=0.70, y=-0.02), Velocity (vx=-0.35, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 3: Presence=1, Position (x=-0.02, y=-0.09), Velocity (vx=0.05, vy=0.44), Heading (cos_h=0.11, sin_h=0.99)
+Vehicle 4: Presence=1, Position (x=-0.12, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 5: Presence=1, Position (x=-0.66, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 6: Presence=1, Position (x=-0.99, y=0.02), Velocity (vx=0.43, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 2
+Reasoning: I chose action 2 (LANE_RIGHT) because there are no vehicles present in the right lane, allowing for a safe and efficient lane change.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.33), Velocity (vx=0.00, vy=-0.91), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=0.04, y=0.00), Velocity (vx=-0.34, vy=0.16), Heading (cos_h=-0.90, sin_h=0.43)
+Vehicle 2: Presence=1, Position (x=0.48, y=-0.02), Velocity (vx=-0.42, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no conflicting vehicles present at the intersection, allowing for a safe stationary position.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.27), Velocity (vx=0.00, vy=-0.91), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.72, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.19, y=0.02), Velocity (vx=0.32, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=0.78, y=-0.02), Velocity (vx=-0.36, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 4: Presence=1, Position (x=0.55, y=-0.02), Velocity (vx=-0.32, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 5: Presence=1, Position (x=-0.02, y=-0.18), Velocity (vx=0.00, vy=0.44), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no immediate threats or obstacles in the intersection, allowing for a safe stationary position.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.45), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=-0.83, y=0.02), Velocity (vx=0.38, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 2: Presence=1, Position (x=-0.44, y=0.02), Velocity (vx=0.41, vy=0.00), Heading (cos_h=1.00, sin_h=-0.00)
+Vehicle 3: Presence=1, Position (x=0.37, y=-0.02), Velocity (vx=-0.38, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 4: Presence=1, Position (x=-0.02, y=-0.24), Velocity (vx=0.00, vy=0.50), Heading (cos_h=0.00, sin_h=1.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no immediate collision risks with other vehicles at the intersection.
+
+
+
+Observation: Current intersection environment state:
+Your vehicle: Presence=1, Position (x=0.02, y=0.48), Velocity (vx=0.00, vy=-0.50), Heading (cos_h=0.00, sin_h=-1.00)
+Vehicle 1: Presence=1, Position (x=0.56, y=-0.02), Velocity (vx=-0.41, vy=0.00), Heading (cos_h=-1.00, sin_h=0.00)
+Vehicle 2: Presence=1, Position (x=0.11, y=-0.02), Velocity (vx=-0.38, vy=-0.00), Heading (cos_h=-1.00, sin_h=-0.00)
+Vehicle 3: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 4: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 5: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 6: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 7: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 8: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 9: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 10: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 11: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 12: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 13: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+Vehicle 14: Presence=0, Position (x=0.00, y=0.00), Velocity (vx=0.00, vy=0.00), Heading (cos_h=0.00, sin_h=0.00)
+
+Action taken: 1
+Reasoning: I chose action 1 (IDLE) because there are no conflicting vehicles present at the intersection, allowing for a safe stationary position.
+
+
