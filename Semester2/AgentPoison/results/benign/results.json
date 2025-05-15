@@ -1,0 +1,3427 @@
+[
+  {
+    "episode": 0,
+    "total_reward": 2.7060965760340503,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.0010151396614209,
+        "info": {
+          "speed": 5.666028343261386,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.33334993614802616,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 1,
+    "total_reward": 5.039443235313456,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.8333383578720595,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 2,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 6.968943802698486,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 3,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 6.504353955796373,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 4,
+    "total_reward": 3.2061077146670898,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.837225692905084e-06,
+        "info": {
+          "speed": 4.935696846286015,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.33333617055902626,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000042558385394,
+            0.5000042558385394
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 5,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 4.935754954984315,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 6,
+    "total_reward": 4.872776610074241,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.6666717326328442,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.3333333333333333,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 7,
+    "total_reward": 4.872776610074241,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.6666717326328442,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.3333333333333333,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 8,
+    "total_reward": 2.53943821077473,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.8343567744021007,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -0.49997509577796073,
+            0.5000249042220393,
+            -0.49997509577796073
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 9,
+    "total_reward": 4.872776610074241,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.6666717326328442,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.3333333333333333,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 10,
+    "total_reward": 2.2060313952270554,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5009499588544258,
+        "info": {
+          "speed": 8.000291467953813,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3334304893179378,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5001457339769066,
+            0.5001457339769066,
+            -1.0
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 11,
+    "total_reward": 4.706109984835026,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.500005107393629,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            0.5000001242823542
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 12,
+    "total_reward": 0.11392548975075971,
+    "steps": 1,
+    "results": [
+      {
+        "step": 0,
+        "reward": 0.11392548975075971,
+        "info": {
+          "speed": 8.34177646925228,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.44725882308409304,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.6708882346261396,
+            -1.0,
+            0.6708882346261396
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 13,
+    "total_reward": 2.53943821077473,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.8343567744021007,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -0.49997509577796073,
+            0.5000249042220393,
+            -0.49997509577796073
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 14,
+    "total_reward": 4.706109984835026,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.500005107393629,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            0.5000001242823542
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 15,
+    "total_reward": 2.7060965760340503,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.0010151396614209,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.33334993614802616,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            -1.0,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 16,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 4.299607200010531,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 17,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 6.070737085684956,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 18,
+    "total_reward": 5.039443235313456,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.8333383578720595,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 19,
+    "total_reward": 2.2060313952270554,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5009499588544258,
+        "info": {
+          "speed": 6.071030824329413,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3334304893179378,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5001457339769066,
+            0.5001457339769066
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 20,
+    "total_reward": 3.206109375704181,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 4.498262784480289e-06,
+        "info": {
+          "speed": 3.2626346799535386,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16666690909091178,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000007272727354,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 21,
+    "total_reward": 1.705649971619177,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.0005685352465475783,
+        "info": {
+          "speed": 8.001705605739643,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3339018685798809,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5008528028698214,
+            0.5008528028698214,
+            -1.0
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 22,
+    "total_reward": 2.2060313952270554,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5009499588544258,
+        "info": {
+          "speed": 8.000291467953813,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3334304893179378,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5001457339769066,
+            0.5001457339769066,
+            -1.0
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 23,
+    "total_reward": 1.8726009059091175,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.16751946953648802,
+        "info": {
+          "speed": 8.001705605739643,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.5008528028698214,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -0.49914719713017863,
+            0.5008528028698214,
+            0.5008528028698214
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 24,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 4.012975734755041,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 25,
+    "total_reward": 4.872776610074241,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.6666717326328442,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.3333333333333333,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 26,
+    "total_reward": 5.039443235313456,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.8333383578720595,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 27,
+    "total_reward": 5.039443235313456,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.8333383578720595,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 28,
+    "total_reward": 5.039443235313456,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.8333383578720595,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 29,
+    "total_reward": 2.706106296054243,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": -0.49999858138715353,
+        "info": {
+          "speed": 3.4956923613110407,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16666808527951313,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000042558385394,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 30,
+    "total_reward": 2.706106296054243,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": -0.49999858138715353,
+        "info": {
+          "speed": 3.4956923613110407,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16666808527951313,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000042558385394,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 31,
+    "total_reward": 4.706109984835026,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.500005107393629,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            0.5000001242823542
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 32,
+    "total_reward": 4.706109984835026,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.500005107393629,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            0.5000001242823542
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 33,
+    "total_reward": 2.2060313952270554,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5009499588544258,
+        "info": {
+          "speed": 3.496200510130607,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3334304893179378,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5001457339769066,
+            0.5001457339769066
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 34,
+    "total_reward": 2.2060313952270554,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5009499588544258,
+        "info": {
+          "speed": 4.013369372631965,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3334304893179378,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5001457339769066,
+            0.5001457339769066
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 35,
+    "total_reward": 5.3727760837983,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.1666712063569027,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 36,
+    "total_reward": 5.039443235313456,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.8333383578720595,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 37,
+    "total_reward": 5.372774907609697,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.166670030168301,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 38,
+    "total_reward": 5.206109659555878,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.000004782114481,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 39,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 6.070737085684956,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 40,
+    "total_reward": 5.206109659555878,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.000004782114481,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 41,
+    "total_reward": 2.7060965760340503,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.0010151396614209,
+        "info": {
+          "speed": 5.666028343261386,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.33334993614802616,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 42,
+    "total_reward": 3.2061077146670898,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.837225692905084e-06,
+        "info": {
+          "speed": 4.299543135170657,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.33333617055902626,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000042558385394,
+            0.5000042558385394
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 43,
+    "total_reward": 2.53943821077473,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.8343567744021007,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -0.49997509577796073,
+            0.5000249042220393,
+            -0.49997509577796073
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 44,
+    "total_reward": 0.11392548975075971,
+    "steps": 1,
+    "results": [
+      {
+        "step": 0,
+        "reward": 0.11392548975075971,
+        "info": {
+          "speed": 8.34177646925228,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.44725882308409304,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.6708882346261396,
+            0.6708882346261396,
+            -1.0
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 45,
+    "total_reward": 5.3727760837983,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 2.1666712063569027,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.6666666666666666,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            1,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 46,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 5.666028343261386,
+          "crashed": true,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 47,
+    "total_reward": 2.2060313952270554,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5009499588544258,
+        "info": {
+          "speed": 3.263181543488247,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.3333333333333333,
+            "high_speed_reward": 0.3334304893179378,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5001457339769066,
+            0.5001457339769066
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 48,
+    "total_reward": 4.872776610074241,
+    "steps": 3,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 1.5010234410687673,
+        "info": {
+          "speed": 8.000049808444079,
+          "crashed": false,
+          "action": 1,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000249042220393,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000249042220393,
+            0.5000249042220393,
+            0.5000249042220393
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "reward": 1.6666717326328442,
+        "info": {
+          "speed": 8.000000248564708,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5000001242823542,
+            "arrived_reward": 0.3333333333333333,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5000001242823542,
+            0.5000001242823542,
+            1
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "episode": 49,
+    "total_reward": 2.206088274626704,
+    "steps": 2,
+    "results": [
+      {
+        "step": 0,
+        "reward": 1.7050814363726294,
+        "info": {
+          "speed": 8.009980826025703,
+          "crashed": false,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.0,
+            "high_speed_reward": 0.5049904130128517,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            0.5049904130128517,
+            0.5049904130128517,
+            0.5049904130128517
+          ],
+          "agents_terminated": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "step": 1,
+        "reward": 0.5010068382540744,
+        "info": {
+          "speed": 4.935754954984315,
+          "crashed": true,
+          "action": 2,
+          "rewards": {
+            "collision_reward": 0.6666666666666666,
+            "high_speed_reward": 0.16667496807401308,
+            "arrived_reward": 0.0,
+            "on_road_reward": 1.0
+          },
+          "agents_rewards": [
+            -1.0,
+            0.5000249042220393,
+            -1.0
+          ],
+          "agents_terminated": [
+            true,
+            false,
+            true
+          ]
+        }
+      }
+    ]
+  }
+]

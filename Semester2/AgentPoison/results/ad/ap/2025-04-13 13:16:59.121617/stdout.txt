@@ -1,0 +1,3 @@
+CUDA not available, using CPU instead
+Init adv_passage ['[CLS]', 'be', 'careful', 'and', 'drive', 'safe', '.', '[SEP]']
+args.num_adv_passage_tokens 8

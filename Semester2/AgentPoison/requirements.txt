@@ -1,0 +1,10 @@
+highway-env
+gymnasium
+sentence-transformers
+faiss-cpu
+torch
+transformers
+python-dotenv
+openai
+tqdm
+numpy<2.0.0 

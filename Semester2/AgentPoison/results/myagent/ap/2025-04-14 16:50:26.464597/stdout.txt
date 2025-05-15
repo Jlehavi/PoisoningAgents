@@ -1,0 +1,7 @@
+CUDA not available, using CPU instead
+Init adv_passage ['[MASK]', '[MASK]', '[MASK]', '[MASK]', '[MASK]', '[MASK]', '[MASK]', '[MASK]', '[MASK]', '[MASK]']
+args.num_adv_passage_tokens 10
+Model embedding Embedding(30522, 768, padding_idx=0)
+db_embeddings: torch.Size([909, 768])
+Iteration: 0
+CUDA not available, using CPU instead

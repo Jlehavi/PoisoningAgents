@@ -1,0 +1,7 @@
+CUDA not available, using CPU instead
+Init adv_passage ['[CLS]', 'be', 'careful', 'and', 'drive', 'safe', '.', '[SEP]']
+args.num_adv_passage_tokens 8
+Model embedding Embedding(30522, 768, padding_idx=0)
+CUDA not available, using CPU instead
+Target Model embedding Embedding(50257, 768)
+db_embeddings: torch.Size([10, 384])
